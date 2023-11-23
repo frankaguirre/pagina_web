@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('imagenes/licor.jpg');
+    background-size: cover;
+    background-blur: 5px; /* Ajusta el desenfoque según tu preferencia */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.7); /* Ajusta la opacidad según tu preferencia */
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px; /* Cambié el valor para agregar un espacio más pequeño entre los campos */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF; /* Cambié a azul */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top:10px; /* Agregué un espacio en la parte superior del botón */
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Cambié a un tono más oscuro de azul al hacer hover */
+}
